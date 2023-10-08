@@ -6,7 +6,7 @@ export const metadata = {
     description: 'A Nextjs discussion platform'
 }
 const inter = Inter({subsets: ["latin"]}) 
-
+    
 
 export default function RootLayout({children}:{children: React.ReactNode}){
     return(
